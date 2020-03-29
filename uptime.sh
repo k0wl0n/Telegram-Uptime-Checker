@@ -23,7 +23,7 @@ status3=`curl $https3 -k -s -f -o /dev/null && echo "UP" || echo "DOWN"`
 status4=`curl $https4 -k -s -f -o /dev/null && echo "UP" || echo "DOWN"`
 
 #this is bot assigned to Teletubies Group Chat
-curl -s -X POST https://api.telegram.org/bot549286734:AAGWstqMD3iT1uBFE1B3Uwg1hCwXyKcZ59Y/sendMessage -d chat_id=xxxxxxx -d text="Bot Report : Webservice Status
+curl -s -X POST https://api.telegram.org/bot549xxx:AAGWstqMD3iT1xxxxxx/sendMessage -d chat_id=xxxxxxx -d text="Bot Report : Webservice Status
 
 Instantis PROD Server 1 is $status :
 $https
